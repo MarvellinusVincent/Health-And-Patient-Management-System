@@ -1,0 +1,32 @@
+.home-page .home-content {
+    height: 80vh;
+    background-image: url("../../assets/images/home-bg.jpg");
+    background-size: cover;
+    background-position: 25% 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-page .home-introduction {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.home-page .home-introduction h2 {
+    font-size: 30px;
+}
+
+.home-page .home-introduction p {
+    font-size: 18px;
+}
+
+.home-page .home-footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page .home-footer p {
+    margin: 0;
+}

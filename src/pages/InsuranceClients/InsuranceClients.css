@@ -1,0 +1,86 @@
+.insurance-page .insurance-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.insurance-page.dark {
+    color: rgb(204, 205, 224);
+    background-color: #5d627f;
+}
+
+.insurance-page .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.insurance-clients-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px);
+    max-width: 364px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.insurance-page.dark .insurance-clients-card {
+    background-color: #2e3757;
+    border: 2px solid #2e3757;
+}
+
+.insurance-page.dark .insurance-clients-card h3 {
+    color: #0584ba;
+}
+
+.insurance-page.dark .insurance-clients-card span {
+    color: #6570ab;
+}
+
+.insurance-clients-details {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.insurance-clients-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+
+.insurance-clients-details p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.insurance-clients-details p:last-child {
+    margin-bottom: 0;
+}
+
+.insurance-clients-details .insurance-clients-features {
+    margin-top: 10px;
+}
+
+.insurance-provider .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.title-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-container h2 {
+    margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+.insurance {
+    min-height: 100vh;
+}
+
+.findAnInsurance-page {
+    margin: 20px;
+    border-color: black;
+}
+
+.findAnInsurance-page.dark {
+    background-color: #3d425e;
+}
+
+.insurance.dark, 
+.insurance.dark h2{
+    color: rgb(204, 205, 224); 
+    background-color: #5d627f;
+}
+
+.findAnInsurance-page .search {
+    background-color: #006997;
+    /* Using theme color */
+    color: white;
+    padding: 30px 15% 30px;
+    box-shadow: 0px -1px 3px #006997;
+}
+
+.findAnInsurance-page .search h2 {
+    font-weight: 500;
+    color: white;
+    /* Ensure readability */
+}
+
+.findAnInsurance-page label {
+    font-weight: 300;
+    font-size: 15px;
+    color: #f0f0f0;
+    /* Light color for readability */
+}
+
+.fpBGKh {
+    border: 0.5px solid gray;
+    box-shadow: 4px 4px 8px 0 rgba(0, 102, 153, 0.3);
+}
+
+.findAnInsurance-page.dark .fpBGKh {
+    border: 0.5px solid gray;
+    box-shadow: 4px 4px 8px 0 rgba(0, 102, 153, 0.3);
+}
+
+.findAnInsurance-page input[type=text],
+.findAnInsurance-page input[type=checkbox] {
+    border: 1px solid #004c70;
+    /* Darker shade of theme color */
+}
+
+.findAnInsurance-page .search input[type=submit] {
+    background-color: #004c70;
+    /* Darker shade for buttons */
+    color: white;
+    border: none;
+}
+
+.findAnInsurance-page .search input[type=submit]:hover {
+    background-color: #003652;
+    /* Even darker for hover effect */
+}
+
+.primary {
+    background-color: #006997;
+    /* Theme color for custom primary buttons */
+    color: white;
+    border: none;
+}
+
+.primary:hover {
+    background-color: #004c70;
+    cursor: pointer;
+}
+
+.findAnInsurance-page .plan {
+    color: #004c70;
+}
+
+.findAnInsurance-page .green {
+    color: green;
+}
+
+.findAnInsurance-page .red {
+    color: red;
+}
+
+.findAnInsurance-page hr {
+    border-color: #004c70;
+}

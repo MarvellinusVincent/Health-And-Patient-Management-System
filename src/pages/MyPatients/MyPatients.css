@@ -1,0 +1,52 @@
+.cards {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+
+}
+
+.cards.dark {
+  background-color: #5d627f;
+}
+
+.card {
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+
+  padding: 0.5rem;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+.card .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.doctor-page.dark .card .name {
+  color: #0584ba;
+}
+
+
+.doctor-page.dark .card {
+  background-color: #2e3757; 
+  color: rgb(204, 205, 224); 
+}
+
+.doctor-page.dark {
+  background-color: #5d627f;
+  color: rgb(204, 205, 224); 
+}

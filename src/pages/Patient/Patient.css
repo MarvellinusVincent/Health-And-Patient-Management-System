@@ -1,0 +1,93 @@
+.patient-page .patient-content {
+    padding: 0px 15% 10px;
+}
+
+.patient-page.dark {
+    color: rgb(204, 205, 224); 
+    background-color: #5d627f;
+}
+
+.patient-page .patient-welcome {
+    margin: 15px 0 16px 10px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.patient-page h2 {
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.patient-page .covid-19-precautions ul {
+    padding-left: 0;
+}
+
+.patient-page .covid-19-precautions li {
+    margin-bottom: 7px;
+}
+
+.patient-page .covid-19-precautions h3 {
+    font-size: 19px;
+    margin: 25px 0 10px;
+}
+
+.patient-page .covid-19-precautions p {
+    margin-top: 0;
+}
+
+.patient-page .covid-19-precautions,
+.patient-page .find-a-doctor,
+.patient-page .find-an-insurance {
+    margin: 9px;
+    padding: 15px 29px;
+    border-radius: 10px;
+}
+
+.covid-19-precautions {
+    background-color: rgb(240, 145, 134);
+}
+
+.patient-page.dark .covid-19-precautions {
+    background-color: #2e3757; 
+}
+
+.patient-page .find-a-doctor,
+.patient-page .find-an-insurance {
+    background-color: rgb(113, 176, 227);
+}
+
+.patient-page.dark .find-a-doctor,
+.patient-page.dark .find-an-insurance {
+   background-color: rgb(92, 56, 105);
+}
+
+.patient-page .patient-services {
+    display: flex;
+}
+
+.patient-page hr {
+    border: 0.5px solid black;
+}
+
+.patient-page .patient-services button {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.patient-page.dark .patient-services button {
+    background-color: rgb(152, 100, 147);
+}
+
+.patient-page.dark .patient-services button:hover {
+    background-color: rgb(92, 26, 67);
+}
+
+.patient-page .patient-services button:hover {
+    background-color: rgb(111, 25, 25);
+}

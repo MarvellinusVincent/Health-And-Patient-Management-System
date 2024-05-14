@@ -1,0 +1,118 @@
+.insurance-page {
+    min-height: 100vh;
+}
+
+.insurance-page .insurance-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 75px 10px;
+}
+
+.insurance-page .insurance-welcome {
+    margin: 20px 0 16px 0px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.insurance-page h2 {
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.insurance-page .browse-insurance-plans,
+.insurance-page .find-an-insurance {
+    margin: 9px;
+    padding: 15px 29px;
+    border-radius: 10px;
+}
+
+.covid-19-precautions {
+    background-color: rgb(240, 145, 134);
+}
+
+.insurance-page .browse-insurance-plans,
+.insurance-page .find-an-insurance {
+    background-color: rgb(113, 176, 227);
+}
+
+.insurance-page.dark .browse-insurance-plans,
+.insurance-page.dark .find-an-insurance {
+    background-color: #2e3757;
+}
+
+
+.insurance-page .insurance-services {
+    display: flex;
+}
+
+.insurance-page hr {
+    border: 0.5px solid black;
+}
+
+.insurance-page .insurance-services button {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.insurance-page .insurance-services button:hover {
+    background-color: rgb(111, 25, 25);
+}
+
+.insurance-page.dark .insurance-services button {
+    background-color: rgb(152, 100, 147);
+}
+
+.insurance-page.dark .insurance-services button:hover {
+    background-color: rgb(37, 32, 130);
+}
+
+
+.insurance-page .header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#myTable th,
+#myTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#myTable th {
+     background-color: rgb(113, 176, 227);
+    color: white;
+    font-weight: bold;
+}
+
+.insurance-page.dark #myTable th {
+    background-color: #3d477d;
+    color: #1f2753;
+    font-weight: bold;
+    border: 1px solid #1f2753;
+}
+
+
+
+#myTable td:first-child,
+#myTable th:first-child {
+    width: 25%;
+}
+
+#myTable td:last-child {
+    width: 50%;
+    padding-right: 20px;
+}

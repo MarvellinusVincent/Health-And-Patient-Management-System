@@ -1,0 +1,164 @@
+.doctor-page {
+    min-height: 100vh;
+}
+
+.doctor-page .content {
+    padding: 0px 15% 10px;
+}
+
+.doctor-page.dark {
+    color: rgb(204, 205, 224); 
+    background-color: #5d627f;
+}
+
+.doctor-page .welcome {
+    margin: 15px 0 16px 10px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.doctor-page.dark .dr-info h1 {
+    color: #0584ba;
+    font-size: 30px;
+}
+
+.doctor-page.light .dr-info h1 {
+    color: rgb(101, 110, 158);
+    font-size: 30px;
+}
+
+.doctor-page h2 {
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.doctor-page .doctor-services p {
+    font-size: 18px;
+}
+
+.doctor-page h3 {
+    font-size: 18px;
+}
+
+.doctor-page .doctor-reviews p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.doctor-page .doctor-reviews,
+.doctor-page .find-a-patient,
+.doctor-page .bedAvailability {
+    margin: 9px;
+    padding: 15px 29px;
+    border-radius: 10px;
+}
+
+.doctor-reviews {
+    background-color: rgb(195, 211, 236);
+}
+
+.doctor-reviews.dark {
+    background-color: #2e3757; 
+}
+
+.doctor-page .find-a-patient,
+.doctor-page .bedAvailability {
+    background-color: rgb(175, 152, 208);
+}
+
+.doctor-page.dark .find-a-patient,
+.doctor-page.dark .bedAvailability {
+    background-color: rgb(92, 56, 105);
+}
+
+.doctor-page .doctor-services {
+    display: flex;
+}
+
+.doctor-page hr {
+    border: 0.5px solid black;
+}
+
+.doctor-page .dr-info h3 {
+    color:rgb(93, 97, 200);
+}
+
+.doctor-page .doctor-services button {
+    background-color: rgb(102, 71, 180);
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.doctor-page.dark .doctor-services button {
+    background-color: rgb(152, 100, 147);
+}
+
+.doctor-page .doctor-services button:hover {
+    background-color: rgb(37, 32, 130);
+}
+
+.doctor-page .reviews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Display two columns */
+  grid-gap: 1rem;
+}
+
+.doctor-page .review {
+  display: flex;
+  border: 2px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 0.5rem;
+  box-shadow: 0 10px 8px 0 rgba(15, 7, 72, 0.2);
+  transition: 0.3s;
+  background-color: rgb(220, 226, 234);
+}
+.doctor-page.dark .review {
+  background-color: #3e4989;
+  border: 2px solid #3e4989;
+}
+.doctor-page .dr-portfolio img {
+    width: 150px;
+    border-radius: 10%;
+     margin-right: 15px;
+}
+
+.doctor-page .dr-portfolio {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.doctor-page .portfolio img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.doctor-page .text-content {
+  padding-left: 20px; 
+}
+
+.doctor-page.dark .review-info h3 {
+  color: rgb(34, 18, 56);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.doctor-page .review-info h3 {
+  color: rgb(60, 63, 146);
+  font-size: 18px;
+  font-weight: bold;
+}
+.doctor-page .text-content p {
+  color: rgb(121, 123, 192);
+}
+
+.doctor-page p {
+    font-size: small;
+}

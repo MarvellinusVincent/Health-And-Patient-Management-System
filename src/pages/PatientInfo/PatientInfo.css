@@ -1,0 +1,104 @@
+.patient-info-container {
+    width: 30%;
+    float: left;
+    padding: 15px;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-color: rgb(210, 224, 246);
+  }
+
+  strong {
+    font-size: 13px;
+  }
+
+  .patient-info-container.dark {
+    background-color: #2e3757; 
+  }
+
+  .patient-info-container.dark h2 {
+    color: #0584ba;
+  }
+
+.btn.light {
+  padding: 10px 20px;
+  background-color: #e3dede; 
+  color: #32303e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.dark {
+  padding: 10px 20px;
+  background-color: #3d3950;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.dark:hover {
+    background-color: #0056b3; 
+}
+
+.btn.light:hover {
+    background-color: #d2dde8;
+}
+
+  .chat-box-container {
+    width: 600px;
+    height: 700px;
+    float: right;
+  }
+
+  .top .child1 {
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+  }
+
+  .chat-box-container .top {
+    margin-left: 15px;
+  }
+
+  .chat-box-outline {
+    width: 90%;
+    height: 500px;
+    padding: 15px;
+    margin-top: 55px;
+    border: 1px solid rgb(186, 186, 186);
+    position: relative;
+  }
+
+  .chat-box-outline .chat-header {
+    color: #bababa;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .chat-box-outline .chat-messages {
+    float: right;
+    text-align: center;
+    overflow-y: scroll;
+  }
+
+  .chat-box-outline .message {
+    border: 1px solid #bababa;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #e6eef4;
+  }
+
+  .chat-box-outline .chat-input {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+  }
+
+  .doctor-page.dark,
+  .content.dark {
+    background-color: #5d627f;
+    color: rgb(204, 205, 224); 
+  }

@@ -1,0 +1,143 @@
+.appointment {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.appointment h1,
+.appointment h2,
+.appointment p,
+.appointment li {
+    color: black;
+}
+
+.appointment .appointment-modal {
+    background-color: white;
+    border-radius: 5px;
+    width: 75%;
+    min-width: 720px;
+    height: 85%;
+    min-height: 700px;
+    position: relative;
+    overflow: scroll;
+}
+
+.appointment .appointment-modal::-webkit-scrollbar {
+    display: none;
+}
+
+.appointment .close-btn {
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.appointment .appointment-header {
+    height: 10%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.appointment .appointment-header img {
+    margin-right: 20px;
+}
+
+.appointment .appointment-header h1 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.appointment .appointment-content {
+    min-height: 400px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment .doctor-details {
+    width: 35%;
+    min-width: 280px;
+}
+
+.appointment .appointment-content h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.appointment .doctor-location h2 {
+    margin: 0 0 3px 0;
+}
+
+.appointment .doctor-specializations h2 {
+    margin: 0;
+}
+
+.appointment .doctor-specializations-header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appointment .doctor-reviews .doctor-reviews-header,
+.appointment .doctor-reviews .doctor-review-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.appointment .doctor-reviews .doctor-reviews-header {
+    margin-bottom: 10px;
+}
+
+.appointment .doctor-reviews button {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.appointment .doctor-reviews button:hover {
+    background-color: rgb(104, 0, 0);
+    cursor: pointer;
+}
+
+.appointment .doctor-reviews .doctor-review {
+    margin-bottom: 20px;
+}
+
+.appointment .doctor-reviews .doctor-reviews-header h2 {
+    margin: 0;
+}
+
+.appointment .doctor-reviews h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.appointment .book-an-appointment {
+    width: 60%;
+    height: 100%;
+}
+
+.appointment .book-an-appointment .md-calendar-booking {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}

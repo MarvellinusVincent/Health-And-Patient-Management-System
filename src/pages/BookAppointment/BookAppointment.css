@@ -1,0 +1,122 @@
+.book-appointment-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+.content.dark {
+  background-color: #2e3757;
+  color: rgb(204, 205, 224);
+
+}
+
+.content.dark h2 {
+  color: rgb(204, 205, 224);
+}
+
+.content.dark p {
+  color: rgb(204, 205, 224);
+}
+.content.dark strong {
+   color: #0584ba;
+}
+
+.content.dark .doctor-info {
+  background-color: #2e3757; 
+}
+
+.doctor-info {
+  background-color: #f3f8fa;
+  border-radius: 8px;
+  box-shadow: 0 9px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+}
+
+.calendar-container {
+  max-width: 600px;
+}
+
+.time-slots-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.time-slot-button {
+  background-color: #e3f2fd;
+  border: 1px solid #006997;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+  min-width: 100px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.content.dark .time-slot-button {
+  background-color: #618cab;
+  border: 1px solid rgb(5, 64, 89);
+}
+.content.dark .time-slot-button.selected {
+  background-color: #313f6b;
+}
+
+.time-slot-button.selected {
+  background-color: #006997;
+  color: white;
+  border-color: #004c70;
+}
+
+.selected-slot-info {
+  position: static;
+  transform: none;
+  left: auto;
+  bottom: auto;
+  width: auto;
+  max-width: none;
+  padding: 10px;
+  box-sizing: border-box;
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.btn.mt-4 {
+  margin-top: 1.5rem !important;
+  background-color: #006997;
+  border-color: #004c70;
+  color: white;
+}
+
+.insuranceheader {
+  color: #006997;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+.k-calendar .k-calendar-td.k-selected .k-link {
+
+  background-color: #004c70 !important;
+}
+
+.time-slot-button:disabled {
+  background-color: #cccccc;
+
+  color: #666666;
+
+  cursor: not-allowed;
+
+  border-color: #999999;
+
+}
+
+.k-calendar .k-calendar-view .k-today {
+  color: #004c70;
+}

@@ -1,0 +1,9 @@
+.logo h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: blueviolet;
+}

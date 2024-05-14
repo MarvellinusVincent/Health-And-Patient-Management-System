@@ -1,0 +1,191 @@
+.account-page {
+    padding-bottom: 20px;
+}
+
+.account-page .content {
+    width: 80%;
+    max-width: 1000px;
+    margin: 25px auto 0;
+    padding-bottom: 0;
+}
+
+.account-page .content .theme-buttons {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.account-page .content .theme-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.account-page .content .theme-buttons .light-button {
+    padding: 10px 20px;
+    background-color: #e3dede; 
+    color: #32303e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-page .content .theme-buttons .dark-button {
+    padding: 10px 20px;
+    background-color: #3d3950;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-page .content .theme-buttons .dark-button:hover {
+    background-color: #0056b3; 
+}
+
+.account-page .content .theme-buttons .light-button:hover {
+    background-color: #d2dde8;
+}
+
+.account-page .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-page .heading h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.account-page .heading button {
+    color: white;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-page form h2 {
+    margin-top: 43px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.account-page .basic-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.account-page .portfolio img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.account-page .basic-information-inputs {
+    display: flex;
+    flex: 1;
+}
+
+.account-page form input,
+.account-page form select {
+    margin: 1px 10px 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+}
+
+.account-page form select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23667a71" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+.account-page form .react-datepicker-wrapper {
+    display: block;
+}
+
+.account-page .portfolio input {
+    padding: 0;
+    border: none;
+}
+
+.account-page .patient-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.account-page .patient-information h3 {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.account-page.light .patient-information h3,
+.account-page.light .patient-information h2,
+.account-page.light .patient-information h1,
+.account-page.light .patient-information p {
+}
+
+.account-page.dark, 
+.account-page.dark .patient-information p {
+    color: rgb(204, 205, 224); 
+    background-color: #5d627f;
+}
+
+.account-page.dark .patient-information h3,
+.account-page.dark .patient-information h2,
+.account-page.dark .patient-information h1 {
+    color: #2d2841; 
+}
+
+.account-page .home-address {
+    display: flex;
+}
+
+.account-page.dark .logout-btn {
+     background-color: #553247;
+}
+
+.account-page.light .logout-btn {
+    background-color: brown;
+}
+
+.account-page .personal-information {
+    display: block;
+}
+
+.account-page.light .save-btn {
+    background-color: green;
+}
+
+.account-page.dark .save-btn {
+    background-color: rgb(36, 102, 36);
+}
+
+.account-page .save-btn:disabled {
+    background-color: gray; 
+    color: white; 
+    cursor: not-allowed; 
+}
+
+.account-page .doctor-content {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.account-page .personal-information input,
+.account-page .personal-information select {
+    width: 150px;
+}
